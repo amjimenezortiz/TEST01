@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUNAK.VMS.API", "KUNAK.VMS.API\KUNAK.VMS.API.csproj", "{21E6FABA-D5D9-4DC4-82F4-9C94CDEADE6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUNAK.VMS.CORE", "KUNAK.VMS.CORE\KUNAK.VMS.CORE.csproj", "{7F575066-A863-42E0-B8CA-C02B10417100}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUNAK.VMS.INFRASTRUCTURE", "KUNAK.VMS.INFRASTRUCTURE\KUNAK.VMS.INFRASTRUCTURE.csproj", "{EE4E6276-91D1-4C2D-86FB-36E18AC38D06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BED53164-75C7-43A5-B7F3-6B70E74DE82D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUNAK.VMS.UnitTests", "KUNAK.VMS.UnitTests\KUNAK.VMS.UnitTests.csproj", "{C0BF93D4-B894-494A-AE30-B69BE269E67A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUNAK.VMS.IntegrationTests", "KUNAK.VMS.IntegrationTests\KUNAK.VMS.IntegrationTests.csproj", "{382B4559-BE5D-4CDC-8C02-8BA09019DD5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21E6FABA-D5D9-4DC4-82F4-9C94CDEADE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E6FABA-D5D9-4DC4-82F4-9C94CDEADE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E6FABA-D5D9-4DC4-82F4-9C94CDEADE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E6FABA-D5D9-4DC4-82F4-9C94CDEADE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F575066-A863-42E0-B8CA-C02B10417100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F575066-A863-42E0-B8CA-C02B10417100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F575066-A863-42E0-B8CA-C02B10417100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F575066-A863-42E0-B8CA-C02B10417100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4E6276-91D1-4C2D-86FB-36E18AC38D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4E6276-91D1-4C2D-86FB-36E18AC38D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4E6276-91D1-4C2D-86FB-36E18AC38D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4E6276-91D1-4C2D-86FB-36E18AC38D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BF93D4-B894-494A-AE30-B69BE269E67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BF93D4-B894-494A-AE30-B69BE269E67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BF93D4-B894-494A-AE30-B69BE269E67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BF93D4-B894-494A-AE30-B69BE269E67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382B4559-BE5D-4CDC-8C02-8BA09019DD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382B4559-BE5D-4CDC-8C02-8BA09019DD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382B4559-BE5D-4CDC-8C02-8BA09019DD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382B4559-BE5D-4CDC-8C02-8BA09019DD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0BF93D4-B894-494A-AE30-B69BE269E67A} = {BED53164-75C7-43A5-B7F3-6B70E74DE82D}
+		{382B4559-BE5D-4CDC-8C02-8BA09019DD5C} = {BED53164-75C7-43A5-B7F3-6B70E74DE82D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A187F939-E4FD-45E2-B9EC-96284BE89ABA}
+	EndGlobalSection
+EndGlobal
